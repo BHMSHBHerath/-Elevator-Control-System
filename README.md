@@ -15,9 +15,13 @@
 
 ## 📽️ Demo
 
+<div align="center">
+  <video src="[https://github.com/user-attachments/assets/YOUR-VIDEO-ID](https://github.com/user-attachments/assets/30ae1411-02a2-4474-9593-6ce63ea2d213)" width="320" controls muted></video>
+  <br>
+  <sub>Working prototype: the car moving between floors</sub>
+</div>
 
 
-https://github.com/user-attachments/assets/30ae1411-02a2-4474-9593-6ce63ea2d213
 
 
 
