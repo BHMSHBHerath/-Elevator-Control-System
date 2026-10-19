@@ -15,7 +15,11 @@
 
 ## 📽️ Demo
 
-<!-- Keep your existing demo video here (the github.com/user-attachments/assets/... link). -->
+
+
+https://github.com/user-attachments/assets/30ae1411-02a2-4474-9593-6ce63ea2d213
+
+
 
 A short clip of the working physical model is shown above: the car travels along the vertical rail and stops at each floor sensor.
 
@@ -38,7 +42,7 @@ The control logic is written as a **finite state machine (FSM)** in a single Ard
 
 | Component | Quantity | Purpose |
 |-----------|----------|---------|
-| Arduino-compatible microcontroller board (Mega-class, as pin 46 is used) | 1 | Main controller |
+| Arduino-Mega | 1 | Main controller |
 | Push buttons | 3 | Floor requests (Floor 1, 2, 3) |
 | Floor position sensors | 3 | Detect when the car is at each floor |
 | DC motor with driver / relay module | 1 | Moves the car up and down |
@@ -105,34 +109,6 @@ stateDiagram-v2
 | 6–11 | Handle **Floor 2** request (move up from Floor 1, or down from Floor 3, until `S2`) |
 | 12–15 | Handle **Floor 3** request (move up until `S3`) |
 
-## 📁 Project Structure
-
-```
--Elevator-Control-System/
-├── <<your_sketch_name>>.ino   # Main Arduino sketch (FSM controller)
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Arduino IDE](https://www.arduino.cc/en/software) (or PlatformIO)
-- A compatible Arduino board and the hardware listed above
-
-### Installation
-
-```bash
-git clone https://github.com/BHMSHBHerath/-Elevator-Control-System.git
-cd -Elevator-Control-System
-```
-
-### Upload
-
-1. Open the `.ino` file in the Arduino IDE.
-2. Select your board and COM port under **Tools**.
-3. Click **Upload**.
-4. Wire the buttons, sensors and motor driver according to the [pin table](#-pin-configuration).
 
 ## 🎮 Usage
 
@@ -156,13 +132,9 @@ cd -Elevator-Control-System
 - [ ] Safety timeout and emergency stop button
 - [ ] Support for more floors
 
-## 🤝 Contributing
 
-Suggestions and improvements are welcome. Fork the repo, create a feature branch and open a pull request.
 
-## 📄 License
 
-This project is licensed under the MIT License. Add a `LICENSE` file to the repo to make it official.
 
 ## 👤 Author
 
