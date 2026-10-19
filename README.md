@@ -138,5 +138,5 @@ stateDiagram-v2
 
 ## 👤 Author
 
-**Sachila** · Electronic & Telecommunication Engineering, KDU
+**Sachila Herath** · Electronic & Telecommunication Engineering, KDU
 [GitHub](https://github.com/BHMSHBHerath)
